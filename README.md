@@ -19,11 +19,39 @@ ARP-alike for IPv6
 
 * 1, DES Unreacheachable
 
+     0 無法路由至目的地
+     
+     1 管理禁止與目的地通訊
+     
+     2 來源位置超出範圍
+     
+     3 位址無法抵達
+     
+     4 通訊阜無法抵達
+     
+     5 來源位址不符進/出政策
+     
+     6 拒絕路由至目的地
+     
+     7 來源路由標頭錯誤
+
 * 2, Packet too Big
+
+     0 預設值
 
 * 3, Time Exceeded
 
+     0 超越傳輸跳點 hop 限制
+     
+     1 分段重組逾時
+
 * 4, Param Problem
+
+     0 錯誤標頭欄位
+     
+     1 下一標頭狀態尚未認可
+     
+     2 選項尚未認可
 
 # Neighbour Discovering
 
