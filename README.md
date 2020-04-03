@@ -15,6 +15,16 @@ Echo Request
 
 Echo Reply
 
+# Error Msg
+
+* 1, DES Unreacheachable
+
+* 2, Packet too Big
+
+* 3, Time Exceeded
+
+* 4, Param Problem
+
 # Neighbour Discovering
 
 https://datatracker.ietf.org/doc/rfc4861/
