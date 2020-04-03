@@ -54,6 +54,12 @@ ARP-alike for IPv6
      1 下一標頭狀態尚未認可
      
      2 選項尚未認可
+     
+# Why Error occurs?
+
+1) 超時或逾時的狀況：
+
+路由轉送 forward 封包時，必須將 Hop 跳點減去 1。 Hop Count 確保了封包不至於在網路中漫無目的的無遠弗屆的毫無限制地自由飄渺地...旅行，倘若封包已經減至 0，卻尚未送達，則將拋棄封包，此程式碼將帶著 payload of value 為 0，而程式設計將 0 值定義為 “Time Exceed”，回傳也告知來源主機 Source Host。
 
 # Neighbour Discovering
 
