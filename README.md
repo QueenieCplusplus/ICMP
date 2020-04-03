@@ -63,6 +63,12 @@ ARP-alike for IPv6
 
 路由轉送 forward 封包時，必須將 Hop 跳點減去 1。 Hop Count 確保了封包不至於在網路中漫無目的的無遠弗屆的毫無限制地自由飄渺地...旅行，倘若封包已經減至 0，卻尚未送達，則將拋棄封包，此程式碼將帶著 payload of value 為 0，而程式設計將 0 值定義為 “Time Exceed”，回傳也告知來源主機 Source Host。
 
+2) 封包太大的例外：
+
+封包太大，以至於 next hop 的 MTU 根本不支援的話，那麼就會產生例外錯誤。此時來源主機將接收到所建議的那個下一跳點的 MTU 大小。
+
+
+
 # Neighbour Discovering
 
 https://datatracker.ietf.org/doc/rfc4861/
