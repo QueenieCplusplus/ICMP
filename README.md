@@ -15,9 +15,9 @@ ARP-alike for IPv6
 
 127, reserved for extension
 
-128, Echo Request
+128, Echo Request (Multicast)
 
-129, Echo Reply
+129, Echo Reply (Unicast)
 
 # Error Msg
 
