@@ -23,11 +23,12 @@ ARP-alike for IPv6
 
 * 1, DES Unreacheachable
 
-     0 無法路由至目的地
+     0 No Route to DES, 無法路由至目的地
      
-     1 管理禁止與目的地通訊
+     1 Communication with DES admin prohibited, 管理禁止與目的地通訊 (防火牆過濾封包)
      
-     2 來源位置超出範圍
+     2 Beyond scope of addr, 來源位置超出範圍
+       封包擁有 link-local 的 source addr 和 global 的 des addr。
      
      3 位址無法抵達
      
