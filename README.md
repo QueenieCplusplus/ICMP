@@ -11,6 +11,8 @@ ARP-alike for IPv6
 
 # ICMP
 
+127, reserved for extension
+
 128, Echo Request
 
 129, Echo Reply
