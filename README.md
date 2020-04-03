@@ -29,6 +29,16 @@ ARP-alike for IPv6
 
 https://datatracker.ietf.org/doc/rfc4861/
 
+* 133, Router Solicitate (探索)
+
+* 134, Router Advertisement (廣告)
+
+* 135, Neighbour Solicitate
+
+* 136, Neightbour Advertisement
+
+* 137, Redirect Msg (重新導向訊息)
+
 # Multicast Listening
 
 * 130, query
