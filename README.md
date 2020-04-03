@@ -28,9 +28,12 @@ ARP-alike for IPv6
      1 Communication with DES admin prohibited, 管理禁止與目的地通訊 (防火牆過濾封包)
      
      2 Beyond scope of addr, 來源位置超出範圍
+     
        封包擁有 link-local 的 source addr 和 global 的 des addr。
      
-     3 位址無法抵達
+     3 Addr Unreachable, 位址無法抵達
+     
+       目的地位址無法還原成正確的網路位址所致，或是 link-layer 出現問題阻止節點觸及目的地網路。  
      
      4 通訊阜無法抵達
      
