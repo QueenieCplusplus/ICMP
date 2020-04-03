@@ -39,9 +39,9 @@ ARP-alike for IPv6
      
        UDP 沒有聆聽者時，例如目標伺服器沒有正在執行狀態時。
      
-     5 來源位址不符進/出政策
+     5 SRC addr failed ingress/egree policy, 來源位址不符進/出政策
      
-     6 拒絕路由至目的地
+     6 Reject Route to DES, 拒絕路由至目的地
      
      7 來源路由標頭錯誤
 
