@@ -28,3 +28,11 @@ ARP-alike for IPv6
 # Neighbour Discovering
 
 https://datatracker.ietf.org/doc/rfc4861/
+
+# Multicast Listening
+
+* 130, query
+
+* 131, report
+
+* 132, done
