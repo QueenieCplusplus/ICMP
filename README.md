@@ -11,9 +11,9 @@ ARP-alike for IPv6
 
 # ICMP
 
-Echo Request
+128, Echo Request
 
-Echo Reply
+129, Echo Reply
 
 # Error Msg
 
